@@ -1,0 +1,65 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(92, 56, 92);
+}
+
+/* rgb(255, 129, 255) - light blue */
+/* rgb(255, 129, 255), rgb(255, 192, 255), rgb(255, 214, 255) - light pink */
+
+.titlediv {
+    border: 5px solid rgb(128, 71, 128);
+    background-color: rgb(143, 94, 143);
+    width: fit-content;
+    height: fit-content;
+    margin: 5px;
+}
+
+.pagediv {
+    border: 5px solid rgb(128, 71, 128);
+    background-color: rgb(143, 94, 143);
+    width: fit-content;
+    height: fit-content;
+    margin: 5px;
+}
+
+.maindiv {
+    border: 5px solid rgb(128, 71, 128);
+    background-color: rgb(143, 94, 143);
+    width: 1000px;
+    height: 300px;
+    margin: 5px;
+}
+
+.button {
+    transition-duration: 0.3s;
+    border: 5px solid rgb(94, 54, 94);
+    background-color: rgb(102, 63, 102);
+    width: fit-content;
+    height: fit-content;
+    margin: 5px;
+    font-size: 15px;
+    font-family: Lexend Giga;
+    font-weight: 500;
+    color: white;
+}
+
+.button:hover {
+    background-color: rgb(165, 99, 165);
+    border: 5px solid rgb(209, 126, 209);
+    color: white;
+}
+
+tt {
+    font-size: 45px;
+    font-family: Lexend Giga;
+    font-weight: 600;
+    color: white;
+}
+
+nt {
+    font-size: 15px;
+    font-family: Lexend Giga;
+    font-weight: 500;
+    color: white;
+}
