@@ -42,7 +42,7 @@ html {
 .gamediv {
     border: 5px solid rgb(12, 12, 20);
     background-color: rgb(15, 15, 15);
-    width: fit-content;
+    width: 140px;
     height: fit-content;
     margin: 5px;
     display: inline-block;
@@ -80,7 +80,7 @@ tt {
 }
 
 nt {
-    font-size: 15px;
+    font-size: 12px;
     font-family: Prompt;
     font-weight: 500;
     color: white;
