@@ -31,6 +31,14 @@ html {
     margin: 5px;
 }
 
+.descriptiondiv {
+    border: 5px solid rgb(128, 71, 128);
+    background-color: rgb(143, 94, 143);
+    width: 1000px;
+    height: 170px;
+    margin: 5px;
+}
+
 .button {
     transition-duration: 0.3s;
     border: 5px solid rgb(94, 54, 94);
@@ -44,10 +52,22 @@ html {
     color: white;
 }
 
+img {
+    margin: 5px;
+}
+
 .button:hover {
     background-color: rgb(165, 99, 165);
     border: 5px solid rgb(209, 126, 209);
     color: white;
+}
+
+.image {
+    border: 5px solid rgb(128, 71, 128);
+    background-color: rgb(143, 94, 143);
+    width: 100px;
+    height: 100px;
+    margin: 5px;
 }
 
 tt {
@@ -58,8 +78,8 @@ tt {
 }
 
 nt {
-    font-size: 15px;
-    font-family: Lexend Giga;
+    font-size: 25px;
+    font-family: Prompt;
     font-weight: 500;
     color: white;
 }

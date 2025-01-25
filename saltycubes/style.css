@@ -1,0 +1,86 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(8, 8, 8);
+}
+
+/* rgb(255, 129, 255) - light blue */
+/* rgb(255, 129, 255), rgb(255, 192, 255), rgb(255, 214, 255) - light pink */
+
+.titlediv {
+    border: 5px solid rgb(12, 12, 20);
+    background-color: rgb(20, 20, 20);
+    width: fit-content;
+    height: fit-content;
+    margin: 5px;
+}
+
+.pagediv {
+    border: 5px solid rgb(12, 12, 20);
+    background-color: rgb(20, 20, 20);
+    width: fit-content;
+    height: fit-content;
+    margin: 5px;
+}
+
+.maindiv {
+    border: 5px solid rgb(12, 12, 20);
+    background-color: rgb(20, 20, 20);
+    width: 1000px;
+    height: 300px;
+    margin: 5px;
+}
+
+.descriptiondiv {
+    border: 5px solid rgb(12, 12, 20);
+    background-color: rgb(20, 20, 20);
+    width: 1000px;
+    height: 170px;
+    margin: 5px;
+}
+
+.button {
+    transition-duration: 0.3s;
+    border: 5px solid rgb(16, 16, 16);
+    background-color: rgb(20, 20, 20);
+    width: fit-content;
+    height: fit-content;
+    margin: 5px;
+    font-size: 15px;
+    font-family: Lexend Giga;
+    font-weight: 500;
+    color: white;
+}
+
+img {
+    margin: 5px;
+    border: 5px solid rgb(12, 12, 20);
+}
+
+.button:hover {
+    background-color: rgb(165, 99, 165);
+    border: 5px solid rgb(209, 126, 209);
+    color: white;
+}
+
+.image {
+    border: 5px solid rgb(128, 71, 128);
+    background-color: rgb(143, 94, 143);
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+tt {
+    font-size: 45px;
+    font-family: Lexend Giga;
+    font-weight: 600;
+    color: white;
+}
+
+nt {
+    font-size: 25px;
+    font-family: Prompt;
+    font-weight: 500;
+    color: white;
+}
