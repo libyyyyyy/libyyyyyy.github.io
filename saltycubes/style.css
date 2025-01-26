@@ -85,6 +85,12 @@ nt {
     font-weight: 500;
     color: white;
 }
+st {
+    font-size: 9px;
+    font-family: Prompt;
+    font-weight: 500;
+    color: white;
+}
 bt {
     font-size: 12px;
     font-family: Lexend Giga;
