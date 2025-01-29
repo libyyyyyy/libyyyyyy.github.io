@@ -1,6 +1,8 @@
-window.onload = function () {
-    var a = document.getElementById("stupid");
-    a.onclick = function () {
-        document.body.style.background = "url('cat.png')";
-    }
+function changeBackground(imageSrc) {
+    document.body.style.backgroundImage = `url(${imageSrc})`;
+
+    const divs = document.querySelectorAll('.pagediv, .descriptiondiv, .maindiv');
+    divs.forEach(function(div) {
+        div.classList.add('transparent');
+    });
 }
