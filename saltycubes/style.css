@@ -44,9 +44,11 @@ html {
     border: 5px solid rgb(12, 12, 20);
     background-color: rgb(15, 15, 15);
     width: 140px;
-    height: fit-content;
+    height: 200px;
     margin: 5px;
     display: inline-block;
+    vertical-align: middle;
+    text-align: center;
 }
 
 .transparent {
@@ -93,7 +95,7 @@ ttt {
 }
 
 nt {
-    font-size: 11px;
+    font-size: 12px;
     font-family: Lexend Giga;
     font-weight: 500;
     color: white;
