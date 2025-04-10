@@ -6,19 +6,25 @@ function changeBackground(imageSrc) {
         div.classList.add('transparent');
     });
 }
-function SecureMode() {
-    var b = document.getElementById("securemode");
-    b.onclick = function() {
-        win = window.open();
-        win.document.title = "Salty Cube's Revamp"
-        win.document.body.style.margin = "0%";
-        win.document.body.style.height = "100%";
-        var iframe = win.document.createElement("iframe");
-        iframe.style.border = "none";
-        iframe.style.width = "100%";
-        iframe.style.height = "100%";
-        iframe.style.margin = "0";
-        iframe.src = "https://libyyyyyy.github.io/saltycubes"
-        win.document.body.appendChild(iframe);
-    }
-}
+function openIframeInNewWindow() {
+    // Open a new window with about:blank
+    const newWindow = window.open('about:blank', '_blank');
+
+    // Create an iframe element
+    const iframe = newWindow.document.createElement('iframe');
+
+    // Set the iframe attributes to make it fill the entire page
+    iframe.src = 'https://libyyyyyy.github.io/saltycubes/';  // Replace with the desired website URL
+    iframe.style.width = '100%';
+    iframe.style.height = '100%';
+    iframe.style.border = 'none';
+
+    // Append the iframe to the new window's document
+    newWindow.document.body.appendChild(iframe);
+  }
+
+  // Function to be called when the link is clicked
+  function SecureMode() {
+    // Call the function to open the iframe in a new window
+    openIframeInNewWindow();
+  }
