@@ -1,0 +1,137 @@
+html {
+    background-color: rgb(0, 0, 0);
+}
+
+a {
+    text-decoration: none; /* Removes underline */
+    color: inherit; /* Inherit color from parent */
+}
+
+#searchInput {
+    border: 5px solid rgb(12, 12, 12);
+    border-radius: 5px;
+    background-color: rgb(8, 8, 8);
+    font-family: monospace;
+    font-size: 16px;
+    width: 615px;
+    color: white;
+    margin: 5px;
+}
+
+#button {
+    border: 5px solid rgb(12, 12, 12);
+    border-radius: 5px;
+    background-color: rgb(8, 8, 8);
+    font-family: monospace;
+    font-size: 16px;
+    width: 200px;
+    color: white;
+    margin: 5px;
+}
+
+.gameholder {
+    border: 5px solid rgb(20, 18, 20);
+    border-radius: 5px;
+    background-color: rgb(15, 15, 15);
+    width: 140px;
+    height: 200px;
+    margin: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    position: relative;
+}
+
+#main {
+    border: 5px solid rgb(15, 15, 15);
+    border-radius: 5px;
+    background-color: rgb(8, 8, 8);
+    width: 1350px;
+    height: fit-content;
+    margin: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    position: relative;
+}
+
+#updates {
+    border: 5px solid rgb(15, 15, 15);
+    border-radius: 5px;
+    background-color: rgb(8, 8, 8);
+    width: 700px;
+    height: fit-content;
+    margin: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    position: relative;
+}
+
+.gameholder .overlay {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: bold;         /* make text bold */
+    text-transform: uppercase;
+    z-index: 10;
+    border-radius: 5px;
+    color: red;                /* default red text */
+  }
+
+#popularGamesContainer .gameholder {
+    border: 5px solid rgb(255, 128, 54);
+    border-radius: 5px;
+    background-color: rgb(255, 106, 26);
+    width: 140px;
+    height: 200px;
+    margin: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    position: relative;
+}
+
+.gameholder img {
+    width: 120px;
+    height: 120px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.gameholder.compact .gt {
+    display: none;
+}
+
+.gameholder.compact {
+    height: 140px;
+    padding: 5px 5px;
+    margin: 2px;
+}
+
+.gt {
+    font-size: 12px;
+    font-family: monospace;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+bt {
+    font-size: 40px;
+    font-family: monospace;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+ut {
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
